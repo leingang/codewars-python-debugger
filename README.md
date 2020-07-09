@@ -1,6 +1,6 @@
-# codewars-python-template
+# codewars-python-debugger
 
-A codewars python kata
+A codewars python kata to create a debugger metaclass
 
 ## Developing
 
@@ -29,3 +29,8 @@ Strip out the logging lines:
     sed -e '/logger/d' -e '/logging/d' solution.py | pbcopy
 
 Then paste into the Codewars edit window.
+
+## Conclusion
+
+This was a nice intro to metaclasses.  I may rework my standard `add_logger`
+tool to use this instead.
